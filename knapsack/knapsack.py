@@ -7,10 +7,10 @@ Item = namedtuple('Item', ['index', 'size', 'value'])
 
 def knapsack_solver(items, capacity):
     # Your code here
+  print(items, capacity)
+  return 0
 
-    pass
-
-
+"""
 if __name__ == '__main__':
   if len(sys.argv) > 1:
     capacity = int(sys.argv[2])
@@ -26,3 +26,4 @@ if __name__ == '__main__':
     print(knapsack_solver(items, capacity))
   else:
     print('Usage: knapsack.py [filename] [capacity]')
+"""
